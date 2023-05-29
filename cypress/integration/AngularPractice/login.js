@@ -30,7 +30,7 @@ describe('TS1: angularpractice Page',function(){
         cy.get('input.btn-success').click()
         cy.get('div.alert-success').then(function(successText){
         const sucText= successText.text()
-        expect(sucText).to.have.includes('Success! The Form has been submitted successfully!.')
+        expect(sucText).to.have.includes('Success! The Form has been submitted successfully.')
         });
 
     }) 
