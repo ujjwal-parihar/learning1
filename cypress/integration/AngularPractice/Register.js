@@ -34,6 +34,14 @@ describe('TS1: angularpractice Page',function(){
         cy.get('#gender-male').should('not.be.selected')
         cy.get('#gender-female').should('not.be.selected')
     });
+    it('TC5: Verify that Gender: Male and Female are not selected', function(){
+        cy.get('a.ico-register').click();
+       
+    });
+    it('TC6:', function(){
+        //cy.get('a.ico-register').click();
+       
+    });
     }) 
 
 
