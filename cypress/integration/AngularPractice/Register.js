@@ -39,7 +39,7 @@ describe('TS1: angularpractice Page',function(){
        
     });
     it('TC6:', function(){
-        //cy.get('a.ico-register').click();
+        cy.get('a.ico-register').click();
        
     });
     }) 
